@@ -1,0 +1,127 @@
+/* General body and fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9; /* light dashboard background */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Table container */
+.table-container {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+table th {
+    background: #34495e; /* dark header */
+    color: white;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tr:hover {
+    background: #ecf0f1;
+}
+
+/* General button styling */
+button, .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background: #e74c3c;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #c0392b;
+}
+
+/* Dashboard button */
+.dashboard-btn {
+    display: block;
+    margin: 25px auto;
+    background: #3498db;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dashboard-btn:hover {
+    background: #2980b9;
+}
+
+/* Delete button */
+.delete-btn {
+    background: #e74c3c; /* bright red */
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #c0392b; /* darker red on hover */
+}
+
+/* Alert messages */
+.alert {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid #c3e6cb;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive table */
+.table-responsive {
+    overflow-x: auto;
+}
